@@ -1,7 +1,12 @@
+html, body, .capa {
+	height: 100%;
+}
+
 body {
-	background: url('../img/fundo.jpg');
+	background: url('../img/fundo3.jpg');
     background-attachment: fixed;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 nav.navbar-transparente {
@@ -9,18 +14,69 @@ nav.navbar-transparente {
 	border: none;
 }
 
-.margin-sup {
-    margin-top: 50px;
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: center;
+	color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo-capa {
+    font-size: 100px;
+}
+
+.subtitulo-capa {
+    font-size: 30px;
 }
 
 .redes-sociais {
     text-align: center;
     padding: 20px;
+    padding-top: 60px;
+}
+
+#servicos {
+    background-color: #f8f8f8; 
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.servico {
+    text-align: center;
+}
+
+img .servico {
+    height: 30px;
+    width: 30px;
+}
+
+.card-servicos {
+    border: 0px;
 }
 
 #sobre {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    background-color: #15679e;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.card-top {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 0px;
+    background-color: transparent;
+    color: white;
+}
+
+.img-top {
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 #contato {
@@ -36,7 +92,7 @@ nav.navbar-transparente {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 80px;
     background-color:#34286d;
     color: #A9A9F5;
 }
