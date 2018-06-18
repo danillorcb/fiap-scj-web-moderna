@@ -1,0 +1,76 @@
+body {
+	background: url('../img/fundo.jpg');
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav.navbar-transparente {
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.margin-sup {
+    margin-top: 50px;
+}
+
+.redes-sociais {
+    text-align: center;
+    padding: 20px;
+}
+
+#sobre {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#contato {
+    background-color: #21184e;
+    padding-bottom: 40px;
+}
+
+#btn-enviar {
+    float: right;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color:#34286d;
+    color: #A9A9F5;
+}
+
+/*** CSS para ícones das redes sociais ***/
+.fa {
+    margin: 15px;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: #A9A9F5;
+    opacity: 0.7;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background:#34286d;
+    color: #A9A9F5;
+}
+
+/* GitHub */
+.fa-github {
+    background:#34286d;
+    color: #A9A9F5;
+}
+
+/* Twitter */
+.fa-twitter {
+    background:#34286d;
+    color: #A9A9F5;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portifólio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- Lib para ícones das redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-transparente">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/DANILLO_6x6.jpeg" width="30" height="30" class="d-inline-block align-top" alt=""> Danillo Ramos de Carvalho Bezerra
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            Sobre
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div class="container body-content margin-sup clearfix">
+        <section id="sobre">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="img/sistema.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvimento de Sistemas</h5>
+                        <p class="card-text">
+                            <small>Formado em Ciência da Computação, sempre me identifiquei com a área de programação. Iniciei trabalhando
+                                com Delphi, sempre fazendo cursos para atualização e aprendizado de novas linguagens como
+                                Java e ASP.net. Hoje trabalho com PHP no back-end e também me arrisco no front-end, onde
+                                ainda quero aprender muita coisa.</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/violao.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Música</h5>
+                        <p class="card-text">
+                            <small>Sou apaixonado por música, é um dos meus hobbies favoritos. Acredito que tocar um instrumento
+                                é imergir em uma atmosfera que te dá muito prazer, e te isola de todos os problemas do mundo.
+                                <br/>Gosto muito de ouvir música também por esse mesmo motivo. Sou bem eclético, mas meu estilo
+                                favorito é Rock n' Roll.
+                                <br/>
+                                <strong>Instrumentos que me arrisco a tocar:</strong> Violão, baixo, guitarra e teclado.</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/avengers.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Filmes de ação e aventura</h5>
+                        <p class="card-text">
+                            <small>Confesso que nunca me apeguei a acompanhar filmes, quadrinhos de super-heróis, mas este ano comecei
+                                a acompanhar através dos filmes, fiz uma "maratona" para me atualizar com os filmes da Marvel
+                                e estou gostando muito de acompanhar. De agora em diante, não perco um no cinema ;)</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="contato">
+        <div class="container">
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/danillo-ramos-de-carvalho-bezerra-3a660035/" class="fa fa-linkedin rounded-circle" target="_blank"></a>
+                <a href="https://github.com/danillorcb/" class="fa fa-github rounded-circle" target="_blank"></a>
+                <a href="https://twitter.com/_Danillo_Ramos" class="fa fa-twitter rounded-circle" target="_blank"></a>
+            </div>
+
+            <form>
+                <div class="form-group row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <fieldset class="form-group">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-6">
+                            <select id="listaAssuntos" class="form-control">
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <textarea class="form-control" id="mensagem" placeholder="Digite sua mensagem"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <button id="btn-enviar" type="submit" class="btn btn-warning">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <p>Desenvolvido por Danillo Ramos de Carvalho Bezerra - [RM:331866]</p>
+        <small>
+            <p>Copyright 2018 - Todos os direitos reservados</p>
+        </small>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="js/funcoes.js"></script>
+</body>
+
+</html>
