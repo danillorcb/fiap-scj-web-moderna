@@ -1,8 +1,20 @@
 var assuntos = [
-    "Desenvolvimento de sistemas",
-    "Oportunidade de emprego",
-    "Música, Rock e instrumentos musicais",
-    "Quadrinhos, séries ou cinema"
+    {
+        "id": "1",
+        "assunto": "Desenvolvimento de sistemas"
+    },
+    {
+        "id": "2",
+        "assunto": "Oportunidade de emprego"
+    },
+    {
+        "id": "3",
+        "assunto": "Música, Rock e instrumentos musicais"
+    },
+    {
+        "id": "4",
+        "assunto": "Quadrinhos, séries ou cinema"
+    }
 ];
 
 var lista = document.getElementById("listaAssuntos");
@@ -23,8 +35,8 @@ function exibirAssuntos() {
 
     $.each(assuntos, function(i, assunto){
         var option = document.createElement("option");
-        $(option).html(assunto);
-        $(option).attr("value", i);
+        $(option).html(assunto.assunto);
+        $(option).attr("value", assunto.id);
         lista.appendChild(option);
     });
 }
